@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    background-image: url('../images/blob\ blue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*header starts*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.logo img {
+    width: 32vw;
+    height: 10vw;
+}
+/*header ends*/
+/*form starts*/
+.form {
+    width: 50vw;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.form_legend {
+    margin: 0 auto 1rem !important;
+}
+
+.form_legend h1 {
+    color: #fff;
+    font-size: x-large;
+    line-height: 2vw;
+}
+
+.fields {
+    display: block;
+    margin-bottom: 2vw;
+}
+
+.fields label {
+    color: #fff;
+    display: block;
+    font-size: 1.25vw;
+}
+
+.fields input {
+    border-radius: 1.75rem;
+    border: none;
+    padding: .9vw;
+    width: 100%;
+}
+
+.fields input:active {
+    border: black;
+    border-width: 2px;
+}
+
+.btn button {
+    background-color: #2fafd6;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 4vw;
+    width: 10vw;
+    color: #fff;
+    font-size: larger;
+    margin-top: 3vw;
+    /* margin-bottom: 10vw; */
+}
+
+.btn button:hover {
+    background-color: #005cb4;
+}
+/*form ends*/
+
+/*footer starts*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 25vw 1vw;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2vw;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+/*END*/

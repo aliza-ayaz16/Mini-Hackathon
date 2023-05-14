@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Livvic', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.MAIN_CONT {
+    width: 100%;
+    height: 50vw;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav_logo:hover {
+    transition: 1s ease-in-out;
+    transform: rotate(361deg);
+}
+
+.view_product {
+    display: flex;
+}
+
+.nav-items .chevron {
+    margin-left: 1vw;
+}
+
+.nav-items .chevron img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-items {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-items:hover {
+    color: rgb(195, 0, 0);
+}
+
+.nav-items a:hover {
+    color: rgb(195, 0, 0);
+}
+
+.nav_right button {
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 13vw;
+    padding: 5px 20px;
+    font-family: 'Livvic', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+.nav_right button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_right button:hover {
+    background-color: #fff;
+}
+
+.nav_right button a:hover {
+    color: #0065c3;
+}
+
+.nav_right button:active {
+    color: #0065c3;
+    background-color: #000;
+}
+
+/*dropdown*/
+/* .dropdwn {
+    position: relative;
+    display: inline-block;
+}
+
+.drop_btn {
+    border: none;
+    cursor: pointer;
+}
+
+.drop_cont {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    width: 4000px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdwn:hover .drop_cont {
+    display: flex;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rows img {
+    width: 100vw;
+    height: 300vw;
+    margin-bottom: 10px;
+}
+
+ */
+/*==================Navbar completed=========================*/
+
+/*Improved taste starts*/
+.promo_containers {
+    background-color: #000;
+}
+
+.promo_container_left {
+    width: 60vw;
+    display: inline-block;
+    background-image: url(../images/pepsi-bg.png);
+    height: 41vw;
+    background-repeat: no-repeat;
+    background-size: auto 118%;
+    background-position: 1vw -75px;
+    overflow: hidden;
+}
+
+.promo_container_left img {
+    display: block;
+    position: absolute;
+    left: 35vw;
+    top: 9vw;
+}
+
+.promo_container_right {
+    display: inline-block;
+
+}
+
+.promo_container_right img {
+    position: relative;
+    width: 35vw;
+    top: 3vw;
+    padding-bottom: 13vw;
+}
+
+.promo_container_right .try_to_believe {
+    margin-top: -12vw;
+}
+
+.promotion_video {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.promotion_video iframe {
+    width: 13vw;
+    height: 8vw;
+    margin-top: -8vw;
+}
+
+.watch_now {
+    position: relative;
+    left: -12vw;
+    top: -8vw;
+    background-color: rgba(0, 101, 195, .8);
+    height: 4vw;
+    padding: 18px 57px;
+    text-align: center;
+    width: 5vw;
+    color: #fff;
+    font-size: 16px;
+}
+
+.promotion_video img {
+    position: relative;
+    top: -3vw;
+    width: 30px;
+    height: 30px;
+    left: -18.3vw;
+}
+
+.promo_containers .video-title {
+    display: inline;
+    color: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+}
+
+.promo_containers .next {
+    display: flex;
+}
+
+.promo_containers .v1,
+.n1 {
+    margin-left: 54vw;
+}
+
+.promo_containers .v1 {
+    position: relative;
+    top: -8vw;
+}
+
+.promo_containers .n1 {
+    margin-left: 57vw;
+
+}
+
+.promo_containers .v2,
+.n2 {
+    margin-left: 80.5vw;
+}
+
+.promo_containers .v2 {
+    position: relative;
+    top: -10.2vw;
+}
+
+.promo_containers .n2 {
+    margin-left: 83.5vw;
+
+}
+
+/*Improved taste ends*/
+
+/*New nitro pepsi starts */
+.main_nitro {
+    background-image: url(../images/blue\ bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: cover;
+    width: 100%;
+    height: 65vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.main_nitro .pepsi_nitro-full {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15vw;
+    margin-right: 6vw;
+    /* padding: 7vw 0 4vw 0; */
+}
+
+.main_nitro .pepsi_nitro-full .pepsi_nitro_img {
+    display: block;
+}
+
+.main_nitro .pepsi_nitro-full h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-left: 11vw;
+    font-weight: bold;
+}
+
+.pepsi_nitro_img button {
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 13vw;
+    padding: 5px 20px;
+    font-family: 'Livvic', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin-left: 16vw;
+}
+
+.pepsi_nitro-full button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pepsi_nitro-full button:hover {
+    background-color: #fff;
+}
+
+.pepsi_nitro-full a:hover {
+    color: #0065c3;
+}
+
+.pepsi_nitro-full button:active {
+    color: #0065c3;
+    background-color: #000;
+}
+
+/*Completed*/
+
+
+/*Better with pepsi starts*/
+.main_better_pepsi {
+    background-color: #265cc5;
+    width: 100%;
+    height: 40vw;
+}
+
+.main_better {
+    background-image: url('../images/PEP_BWP_D.jpg');
+    background-size: cover;
+    width: 65%;
+    height: 40vw;
+    background-position: center;
+    float: right;
+}
+
+.main_better_left {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3vw;
+}
+
+.main_better_left .ribs {
+    height: 20vw;
+}
+
+.main_better_left .main_better_span {
+    display: flex;
+    position: relative;
+    background-color: #1437bf;
+    color: #fff;
+    height: 2.5vw;
+    margin-top: -1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.hash_better_with_pepsi {
+    display: flex;
+    float: right;
+    margin-top: -11vw;
+}
+
+.hash_better_with_pepsi img {
+    height: 10vw;
+    width: 45vw;
+}
+
+/*Better with pepsi ends*/
+
+/*Mango pepsi a perfect match starts*/
+.main_mango {
+    display: flex;
+    background-color: #003e89;
+    position: relative;
+    width: 100%;
+    height: 45.55vw;
+    background-image: url('../images/blue\ yellow.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 50vw;
+}
+
+.main_mango .headlines {
+    margin-left: 3vw;
+    margin-top: 5vw;
+}
+
+.main_mango .headlines .mango_headline img {
+    height: 20vw;
+}
+
+.main_mango .headlines .mango_headline_mini img {
+    height: 3vw;
+    margin-top: 15vw;
+}
+
+.mango_left img {
+    width: 59.9vw;
+    margin-left: -5vw;
+}
+
+/*Mango pepsi a perfect match ends*/
+/*video starts*/
+.main_video video {
+    width: 100%;
+    margin-bottom: -2vw;
+}
+
+/*video ends*/
+
+/*cool pepsi starts*/
+.main_cool {
+    background-color: #004ca7;
+    background-image: url('../images/blue\ gradient.jpg');
+    height: 52vw;
+    display: flex;
+    padding-top: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_cool .main_cool_headline img {
+    width: 40vw;
+    height: 25vw;
+
+}
+
+/*cool pepsi ends*/
+/*Promotion products start*/
+.main_promotion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/dark\ blue\ gradient.png');
+    height: 30vw;
+    margin-top: -1.5vw;
+}
+
+.main_promotion .main_promotion_left {
+    color: #fff;
+    width: 40%;
+}
+
+.main_promotion .main_promotion_left .promotion_heading .heading_h2 {
+    font-size: 2em;
+}
+
+.main_promotion .main_promotion_right img {
+    width: 40vw;
+    height: 20vw;
+}
+
+.main_promotion_left button {
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 13vw;
+    padding: 5px 20px;
+    font-family: 'Livvic', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+.main_promotion_left button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main_promotion_left button:hover {
+    background-color: #fff;
+}
+
+.main_promotion_left button a:hover {
+    color: #0065c3;
+}
+
+.main_promotion_left button:active {
+    color: #0065c3;
+    background-color: #000;
+}
+
+/*Promotion products ends*/
+/*stay tuned starts*/
+.main_stay {
+    margin-top: 0;
+}
+
+.stay_heading h2 {
+    margin-top: 0;
+    color: #0065c3;
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+}
+
+.stay_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.stay_social img {
+    width: 17vw;
+    height: 17vw;
+}
+
+.stay_social img:hover {
+    transition: 1s;
+    transform: rotate(10deg);
+    opacity: .5;
+}
+
+
+/*stay tuned ends*/
+/*footer starts*/
+footer {
+    background-color: #0065c3;
+}
+
+.final_footer {
+    height: 18vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+}
+
+.logo {
+    margin-right: 13vw;
+}
+
+.logo:hover {
+    transition: 1s;
+    transform: rotate(361deg);
+}
+
+.all_links {
+    display: flex;
+}
+
+.all_links a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.links4 .links4_icons {
+    width: 3vw;
+    height: 3vw;
+}
+
+.links1,
+.links2,
+.links3 {
+    display: block;
+    margin-right: 5vw;
+}
+
+.links1 a:hover,
+.links2 a:hover,
+.links3 a:hover {
+    transition: .1s;
+    opacity: .5;
+}
+
+.links4 button {
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 18vw;
+    padding: 5px 20px;
+    font-family: 'Livvic', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+.links4 button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links4 button:hover {
+    background-color: #fff;
+}
+
+.links4 button a:hover {
+    color: #0065c3;
+}
+
+.links4 button:active {
+    color: #0065c3;
+    background-color: #000;
+}
+/*END*/
